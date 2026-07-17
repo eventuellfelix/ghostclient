@@ -1,7 +1,7 @@
 {
   "enabled": false,
   "allowed": [
-    "feiliex"
+    "a996b4c722846bc43628225571521d072b10549dc8718846336bcf2fcf6852ce"
   ],
-  "_hinweis": "enabled:true schaltet die Zugriffskontrolle ein. Nur Spieler, deren Minecraft-Name (klein geschrieben) oder UUID unten steht, dürfen den Launcher zum Spielen nutzen. Zum Rauswerfen: Name aus der Liste loeschen und Datei speichern (Commit)."
+  "_info": "Namen werden nur als gesalzener SHA-256-Hash gespeichert (Datenschutz). Verwaltung ausschliesslich ueber das Admin-Panel im Launcher."
 }
