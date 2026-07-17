@@ -1,7 +1,8 @@
 {
   "enabled": false,
   "allowed": [
-    "feiliex"
+    "feiliex",
+    "greendyee"
   ],
   "_hinweis": "enabled:true schaltet die Zugriffskontrolle ein. Nur Spieler, deren Minecraft-Name (klein geschrieben) oder UUID unten steht, dürfen den Launcher zum Spielen nutzen. Zum Rauswerfen: Name aus der Liste loeschen und Datei speichern (Commit)."
 }
