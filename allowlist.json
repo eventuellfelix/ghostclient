@@ -1,6 +1,6 @@
 {
-  "enabled": true,
-  "maintenance": true,
+  "enabled": false,
+  "maintenance": false,
   "allowed": [
     "a996b4c722846bc43628225571521d072b10549dc8718846336bcf2fcf6852ce",
     "ffdfd2b0533f6b65f2ab2570aab68111df04a46acefcb4b3947ba70d22d0ac70",
