@@ -1,37 +1,76 @@
-# GhostClient
+# Ghost Client
 
-Eigener Minecraft-Launcher mit Glass-UI – Profile, Modrinth-Mods & -Modpacks, Multi-Account, Skin-/Cape-Verwaltung, Auto-Updates.
+Ein eigener Minecraft-Launcher: Profile, Mods und Modpacks von Modrinth, mehrere Konten,
+Skin- und Cape-Verwaltung, Auto-Updates – und im Spiel ein Client-Menü mit HUD-Editor und
+Kosmetik.
 
 > **KEIN OFFIZIELLES MINECRAFT-PRODUKT. NICHT VON MOJANG ODER MICROSOFT GENEHMIGT ODER MIT IHNEN VERBUNDEN.**
 > Minecraft ist eine Marke von Mojang AB. Zum Spielen brauchst du dein eigenes gekauftes Minecraft.
 
 ## Installieren
 
-**[GhostClient-Setup.exe herunterladen](../../releases/latest/download/GhostClient-Setup.exe)** und ausführen – dieser Link liefert immer die neueste Version.
+**[Ghost Client herunterladen](../../releases/latest/download/GhostClient-Setup.exe)** und
+ausführen – dieser Link liefert immer die neueste Version.
 
-Windows SmartScreen warnt beim ersten Start (die App ist nicht signiert): **„Weitere Informationen" → „Trotzdem ausführen"**.
+Windows SmartScreen warnt beim ersten Start, weil die Datei nicht signiert ist:
+**„Weitere Informationen" → „Trotzdem ausführen"**.
 
-Danach im Launcher unter **Konten** mit dem eigenen Microsoft-Konto anmelden – fertig. Neue Updates meldet der Launcher selbst und installiert sie auf Klick.
+Danach im Launcher unter **Konten** mit dem Microsoft-Konto anmelden. Neue Versionen meldet der
+Launcher selbst und installiert sie auf Klick.
+
+Voraussetzungen: Windows 10 oder 11 (64 Bit). Java bringt der Launcher passend zur
+Minecraft-Version selbst mit.
+
+## Was drin ist
+
+- **Profile** je Minecraft-Version und Loader, jedes mit eigenem Ordner, Mods und Texturepacks
+- **Mods & Modpacks von Modrinth** installieren und aktualisieren – und die Version einer
+  einzelnen Mod gezielt wechseln, vorwärts wie rückwärts
+- **Absturzhilfe**: Stürzt Minecraft ab, sucht der Launcher die Ursache im Protokoll, erklärt sie
+  in Klartext und bietet, wo möglich, eine Lösung auf Knopfdruck an
+- **Mehrere Konten**, umschaltbar auch mitten im Spiel
+- **Skins & Capes** verwalten, mit 3D-Vorschau
+- **Im Spiel** (rechte Umschalttaste): Client-Menü mit HUD-Editor, Mod-Übersicht und
+  Kosmetik-Shop
 
 ## Datenschutz
 
-Konten, Profile und Anmeldedaten bleiben **auf deinem Rechner**. Die Anmeldung läuft über den offiziellen Microsoft-Login – GhostClient sieht dein Passwort nie.
+Konten, Anmeldedaten und Profile bleiben **auf deinem Rechner**. Die Anmeldung läuft über den
+offiziellen Microsoft-Login; dein Passwort sieht der Launcher nie.
 
-Standardmäßig sendet der Launcher eine anonyme Nutzungsstatistik:
+An den Ghost-Client-Server geht nur das hier:
 
-- eine zufällige Installations-ID und die Launcher-Version
-- während du spielst: dein Minecraft-Name und deine UUID, damit Mitspieler sehen, wer gerade mit GhostClient online ist
+- eine zufällig erzeugte Installations-Kennung und die Launcher-Version
+- **während du spielst**: Minecraft-Name und UUID des spielenden Kontos. Daran hängen die
+  Online-Anzeige und der kleine Ghost neben den Namen von Mitspielern, die ebenfalls mit Ghost
+  Client spielen. Nach dem Beenden verschwindet der Eintrag wieder.
+- deine **Kosmetik**: was für dein Konto freigeschaltet ist und was du davon angelegt hast –
+  sonst könnten die anderen es nicht an dir sehen
 
-Nicht gesendet werden Passwörter, Tokens, Chats oder Welten. Abschalten kannst du das jederzeit unter **Einstellungen → Anonyme Nutzungsstatistik senden**.
+Nicht gesendet werden Passwörter, Zugangs-Tokens, Chats, Welten oder deine Mod-Liste.
 
-## Zugriffskontrolle (`allowlist.json`)
+Diese Übertragung gehört zum Client und lässt sich derzeit nicht abschalten. Wer das nicht
+möchte, sollte den Launcher nicht verwenden.
 
-Steuert, wer den Launcher zum Spielen benutzen darf.
+Zwei weitere Dinge, die der Launcher am Spiel ändert: Der Server **GhostSMP.net** steht in deiner
+Serverliste an erster Stelle, und in Profilen mit passender Minecraft-Version wird die Client-Mod
+mitgeladen (dafür laufen auch Vanilla-Profile still über Fabric).
 
-- `enabled: false` → jeder darf spielen.
-- `enabled: true` → nur freigeschaltete Spieler dürfen starten (gespeichert als Hash, nicht im Klartext).
-- Freigaben verwaltest du im Launcher unter **Konten → Admin**.
+## Dieses Repository
 
-## Lizenz
+Hier liegt **kein Quellcode** – das Projekt ist privat. Das Repository dient der Verteilung:
 
-Der Quellcode ist derzeit nicht veröffentlicht; die Releases dürfen frei genutzt werden. GhostClient ist ein privates Projekt von [eventuellfelix](https://github.com/eventuellfelix).
+- die **Releases** mit dem fertigen Installationsprogramm
+- `allowlist.json` – steuert, wer den Launcher zum Spielen benutzen darf; gespeichert sind nur
+  Prüfsummen, keine Klartextnamen
+- `release.json` – eine kleine Steuerdatei für den Launcher
+
+Die Quellcode-Archive, die GitHub automatisch an jedes Release hängt, enthalten deshalb nur diese
+Dateien.
+
+## Fragen, Fehler, Wünsche
+
+Über [Issues](../../issues) oder auf dem Discord-Server, der im Launcher unten links verlinkt ist.
+
+Ghost Client ist ein privates Projekt von [eventuellfelix](https://github.com/eventuellfelix).
+Die Releases dürfen frei genutzt werden.
