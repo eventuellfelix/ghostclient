@@ -72,5 +72,12 @@ Dateien.
 
 Über [Issues](../../issues) oder auf dem Discord-Server, der im Launcher unten links verlinkt ist.
 
+## Rechte
+
 Ghost Client ist ein privates Projekt von [eventuellfelix](https://github.com/eventuellfelix).
-Die Releases dürfen frei genutzt werden.
+Alle Rechte vorbehalten.
+
+Du darfst den Client kostenlos herunterladen und benutzen, so viel du magst. Nicht erlaubt ist,
+ihn zu verändern, zurückzuentwickeln, nachzubauen oder unter eigenem Namen bzw. über andere
+Wege weiterzuverbreiten. Wenn du ihn weiterempfehlen willst: verlink einfach dieses
+Repository – so bekommt jeder die echte, aktuelle Fassung.
