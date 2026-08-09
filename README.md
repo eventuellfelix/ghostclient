@@ -52,10 +52,11 @@ An den Ghost-Client-Server geht nur das hier:
 - deine **Kosmetik-Keys**: dein Guthaben, wofür du es ausgegeben hast, und – wenn du über einen
   Einladungslink dazugekommen bist – von wem du eingeladen wurdest. Ohne das ließe sich weder
   ein Key gutschreiben noch verhindern, dass ein Konto ihn mehrfach auslöst
-- **einmal bei der ersten Anmeldung**: ein Nachweis, dass dir dein Minecraft-Konto wirklich
-  gehört. Der Client meldet sich dafür bei Mojang an – genau so, wie es beim Beitritt zu jedem
-  Server passiert – und der Ghost-Client-Server fragt bei Mojang nach, wer das war. Dein Token
-  bekommt dabei nur Mojang, nie der Ghost-Client-Server
+- **beim Anmelden**: ein Nachweis, dass dir dein Minecraft-Konto wirklich gehört. Der Client
+  benutzt dafür das Schlüsselpaar, das Mojang jedem angemeldeten Spieler ausstellt – dasselbe,
+  mit dem Minecraft deine Chatnachrichten signiert. Übertragen werden nur der öffentliche Teil
+  samt Mojangs Signatur und eine damit unterschriebene Zufallsfrage. Dein Zugangs-Token bekommt
+  dabei nur Mojang, nie der Ghost-Client-Server
 
 Nicht gesendet werden Passwörter, Zugangs-Tokens, Chats, Welten oder deine Mod-Liste.
 
