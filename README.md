@@ -32,6 +32,9 @@ Minecraft-Version selbst mit.
 - **Skins & Capes** verwalten, mit 3D-Vorschau
 - **Im Spiel** (rechte Umschalttaste): Client-Menü mit HUD-Editor, Mod-Übersicht und
   Kosmetik-Shop
+- **Freunde einladen**: Jeder hat unter „Konten" einen eigenen Einladungslink. Meldet sich jemand
+  darüber zum ersten Mal mit seinem Minecraft-Konto an, gibt es einen **Kosmetik-Key** – die
+  Währung, mit der im Shop im Spiel Kosmetik gekauft wird. Ein Key je Konto, nie mehr
 
 ## Datenschutz
 
@@ -46,8 +49,19 @@ An den Ghost-Client-Server geht nur das hier:
   Client spielen. Nach dem Beenden verschwindet der Eintrag wieder.
 - deine **Kosmetik**: was für dein Konto freigeschaltet ist und was du davon angelegt hast –
   sonst könnten die anderen es nicht an dir sehen
+- deine **Kosmetik-Keys**: dein Guthaben, wofür du es ausgegeben hast, und – wenn du über einen
+  Einladungslink dazugekommen bist – von wem du eingeladen wurdest. Ohne das ließe sich weder
+  ein Key gutschreiben noch verhindern, dass ein Konto ihn mehrfach auslöst
+- **einmal bei der ersten Anmeldung**: ein Nachweis, dass dir dein Minecraft-Konto wirklich
+  gehört. Der Client meldet sich dafür bei Mojang an – genau so, wie es beim Beitritt zu jedem
+  Server passiert – und der Ghost-Client-Server fragt bei Mojang nach, wer das war. Dein Token
+  bekommt dabei nur Mojang, nie der Ghost-Client-Server
 
 Nicht gesendet werden Passwörter, Zugangs-Tokens, Chats, Welten oder deine Mod-Liste.
+
+Kosmetik, Guthaben und wer wen eingeladen hat bleiben gespeichert, auch wenn du länger nicht
+spielst – Freigeschaltetes und Bezahltes darf niemandem nach einer Pause abhandenkommen. Name und
+UUID werden gelöscht, wenn ein Konto 90 Tage nicht mehr mit dem Client gespielt hat.
 
 Diese Übertragung gehört zum Client und lässt sich derzeit nicht abschalten. Wer das nicht
 möchte, sollte den Launcher nicht verwenden.
