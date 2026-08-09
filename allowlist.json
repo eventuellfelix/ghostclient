@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "maintenance": false,
   "message": "Wir befinden uns in Wartungsarbeiten!",
   "allowed": [
