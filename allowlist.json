@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "maintenance": false,
-  "message": "Wartung",
+  "message": "Wir befinden uns in Wartungsarbeiten!",
   "allowed": [
     "ea529951e2c0c835a41a8691af172f58f573180ba2c3f0f3b2c3d57800afc387",
     "7313d2c66db677fb7ac500c6bcb217260082fec5ef5f4b326a732d2ce7d415d8",
