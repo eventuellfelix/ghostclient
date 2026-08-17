@@ -9,7 +9,7 @@ Kosmetik.
 
 ## Installieren
 
-**[Ghost Client herunterladen](https://stats.ghostsmp.net/download)** und
+**[Ghost Client herunterladen](https://client.ghostsmp.net/download)** und
 ausführen – dieser Link liefert immer die neueste Version.
 
 Windows SmartScreen warnt beim ersten Start, weil die Datei nicht signiert ist:
