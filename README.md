@@ -1,25 +1,32 @@
 # Ghost Client
 
-Ein eigener Minecraft-Launcher: Profile, Mods und Modpacks von Modrinth, mehrere Konten,
-Skin- und Cape-Verwaltung, Auto-Updates – und im Spiel ein Client-Menü mit HUD-Editor und
-Kosmetik.
+Ein eigener Minecraft-Launcher für **Windows und macOS**: Profile, Mods und Modpacks von
+Modrinth, mehrere Konten, Skin- und Cape-Verwaltung, Auto-Updates – und im Spiel ein
+Client-Menü mit HUD-Editor und Kosmetik.
 
 > **KEIN OFFIZIELLES MINECRAFT-PRODUKT. NICHT VON MOJANG ODER MICROSOFT GENEHMIGT ODER MIT IHNEN VERBUNDEN.**
 > Minecraft ist eine Marke von Mojang AB. Zum Spielen brauchst du dein eigenes gekauftes Minecraft.
 
 ## Installieren
 
-**[Ghost Client herunterladen](https://client.ghostsmp.net/download)** und
-ausführen – dieser Link liefert immer die neueste Version.
+**[Ghost Client herunterladen](https://client.ghostsmp.net/download)** – dieser Link liefert
+immer die neueste Version und erkennt von selbst, ob du an einem Windows-Rechner oder an einem
+Mac sitzt.
 
-Windows SmartScreen warnt beim ersten Start, weil die Datei nicht signiert ist:
+**Windows:** Datei ausführen. SmartScreen warnt beim ersten Start, weil sie nicht signiert ist:
 **„Weitere Informationen" → „Trotzdem ausführen"**.
 
-Danach im Launcher unter **Konten** mit dem Microsoft-Konto anmelden. Neue Versionen meldet der
-Launcher selbst und installiert sie auf Klick.
+**macOS:** Das Installationsbild öffnen und **Ghost Client in den Programme-Ordner ziehen** –
+nicht direkt aus dem Fenster starten, sonst kann er sich später nicht selbst aktualisieren.
+Beim ersten Start meldet macOS, der Entwickler sei nicht überprüft: **Systemeinstellungen →
+Datenschutz & Sicherheit**, dort ganz unten auf **„Dennoch öffnen"**. Nur dieses eine Mal.
 
-Voraussetzungen: Windows 10 oder 11 (64 Bit). Java bringt der Launcher passend zur
-Minecraft-Version selbst mit.
+Danach im Launcher unter **Konten** mit dem Microsoft-Konto anmelden. Neue Versionen meldet der
+Launcher selbst und installiert sie auf Klick – auf beiden Systemen.
+
+Voraussetzungen: **Windows 10 oder 11 (64 Bit)** oder **macOS 12 oder neuer**. Für den Mac gibt
+es eine einzige Datei, die auf Apple Silicon und auf Intel läuft. Java bringt der Launcher
+passend zur Minecraft-Version selbst mit.
 
 ## Was drin ist
 
@@ -75,7 +82,7 @@ mitgeladen (dafür laufen auch Vanilla-Profile still über Fabric).
 
 Hier liegt **kein Quellcode** – das Projekt ist privat. Das Repository dient der Verteilung:
 
-- die **Releases** mit dem fertigen Installationsprogramm
+- die **Releases** mit den fertigen Dateien für Windows und macOS
 - `allowlist.json` – steuert, wer den Launcher zum Spielen benutzen darf; gespeichert sind nur
   Prüfsummen, keine Klartextnamen
 - `release.json` – eine kleine Steuerdatei für den Launcher
