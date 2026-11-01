@@ -45,38 +45,37 @@ passend zur Minecraft-Version selbst mit.
 
 ## Datenschutz
 
-Konten, Anmeldedaten und Profile bleiben **auf deinem Rechner**. Die Anmeldung läuft über den
-offiziellen Microsoft-Login; dein Passwort sieht der Launcher nie.
+Konten und Anmeldedaten bleiben **auf deinem Rechner**. Die Anmeldung läuft über den offiziellen
+Microsoft-Login; dein Passwort sieht der Launcher nie.
 
-An den Ghost-Client-Server geht nur das hier:
+Für die Online-Funktionen geht das hier an den Ghost-Client-Server:
 
-- eine zufällig erzeugte Installations-Kennung und die Launcher-Version
-- **während du spielst**: Minecraft-Name und UUID des spielenden Kontos. Daran hängen die
-  Online-Anzeige und der kleine Ghost neben den Namen von Mitspielern, die ebenfalls mit Ghost
-  Client spielen. Nach dem Beenden verschwindet der Eintrag wieder.
-- deine **Kosmetik**: was für dein Konto freigeschaltet ist und was du davon angelegt hast –
-  sonst könnten die anderen es nicht an dir sehen
-- deine **Kosmetik-Keys**: dein Guthaben, wofür du es ausgegeben hast, und – wenn du über einen
-  Einladungslink dazugekommen bist – von wem du eingeladen wurdest. Ohne das ließe sich weder
-  ein Key gutschreiben noch verhindern, dass ein Konto ihn mehrfach auslöst
-- **beim Anmelden**: ein Nachweis, dass dir dein Minecraft-Konto wirklich gehört. Der Client
-  benutzt dafür das Schlüsselpaar, das Mojang jedem angemeldeten Spieler ausstellt – dasselbe,
-  mit dem Minecraft deine Chatnachrichten signiert. Übertragen werden nur der öffentliche Teil
-  samt Mojangs Signatur und eine damit unterschriebene Zufallsfrage. Dein Zugangs-Token bekommt
+- **Konto und Installation:** Minecraft-Name und UUID, eine zufällige Installations-Kennung und
+  die Client-Version
+- **Verbindung:** deine IP-Adresse und der daraus abgeleitete ungefähre Standort (Land, Region,
+  Stadt, Postleitzahl, Zeitzone) sowie dein Internetanbieter
+- **System:** Betriebssystem, Prozessor, Arbeitsspeicher, Bildschirm und Sprache
+- **Profile und Mods:** deine Profilliste und, wenn der Support danach fragt, welche Mods ein
+  laufendes Spiel nutzt
+- **Während du spielst:** Spielversion, Serveradresse und Profilname
+- **Online-Funktionen:** Freunde, Kosmetik, Kosmetik-Keys und Einladungen
+- **Wallet:** Aufträge, Guthaben und die dafür nötigen Chat-Zeilen des Servers
+- **Beim Anmelden:** ein Nachweis, dass dir dein Minecraft-Konto gehört. Dein Zugangs-Token bekommt
   dabei nur Mojang, nie der Ghost-Client-Server
 
-Nicht gesendet werden Passwörter, Zugangs-Tokens, Chats, Welten oder deine Mod-Liste.
+Das Ghost-Client-Team kann für den Support Aktionen in deinem Client auslösen, zum Beispiel ein
+Profil starten, einen Server betreten oder verlassen oder eine Chat-Nachricht senden.
 
-Kosmetik, Guthaben und wer wen eingeladen hat bleiben gespeichert, auch wenn du länger nicht
-spielst – Freigeschaltetes und Bezahltes darf niemandem nach einer Pause abhandenkommen. Name und
-UUID werden gelöscht, wenn ein Konto 90 Tage nicht mehr mit dem Client gespielt hat.
+Nicht gesendet werden Passwörter, Zugangs-Tokens und Welten.
+
+Andere Ghost-Client-Spieler sehen, dass du online bist und welche Kosmetik du trägst. Kosmetik,
+Guthaben und wer wen eingeladen hat bleiben gespeichert, auch wenn du länger nicht spielst.
 
 Diese Übertragung gehört zum Client und lässt sich derzeit nicht abschalten. Wer das nicht
 möchte, sollte den Launcher nicht verwenden.
 
-Zwei weitere Dinge, die der Launcher am Spiel ändert: Der Server **GhostSMP.net** steht in deiner
-Serverliste an erster Stelle, und in Profilen mit passender Minecraft-Version wird die Client-Mod
-mitgeladen (dafür laufen auch Vanilla-Profile still über Fabric).
+Der Server **GhostSMP.net** steht in deiner Serverliste an erster Stelle. Die Client-Mod läuft in
+Fabric-, Forge- und NeoForge-Profilen, Vanilla-Profile bleiben unverändert.
 
 ## Dieses Repository
 
