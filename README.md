@@ -9,7 +9,7 @@ Client-Menü mit HUD-Editor und Kosmetik.
 
 ## Installieren
 
-**[Ghost Client herunterladen](https://client.ghostsmp.net/download)** – dieser Link liefert
+**[Ghost Client herunterladen](https://ghostclient.app/download)** – dieser Link liefert
 immer die neueste Version und erkennt von selbst, ob du an einem Windows-Rechner oder an einem
 Mac sitzt.
 
